@@ -45,3 +45,4 @@
 24. Push merge commit to remote
 
 ## [GitHub help](https://help.github.com)
+## [Google Sheets](https://docs.google.com/presentation/d/1joNqC9FE4hQgPqa0DmG20MsHl83ebWYgZa3iLEXzl1U/edit?usp=sharing)
