@@ -1,7 +1,6 @@
 # Git tutorial
 
 > **Note:**
-
 > -  This tutorial has been done for the Tampere University of Applied Science business administrator systems students who need a simple guide to git usage.
 > - This tutorial was implemented to be a part of a Git training session I, [Dosentos](https://github.com/Dosentos) & [mehxit](https://github.com/mehxit) put up together for fellow students. You can find your slideshow in the repository. Unfortunately it's in Finnish.
 > - To make it easier to maintain this tutorial has been uploaded to github. If there's something you would correct in this tutorial, please open new issue in the repository.  (Instructions below)
@@ -34,7 +33,23 @@ Github, Gitlab, Bitbucket etc. are all different services where you can upload y
 
 ## Git Commands
 
+### git init
 
+### git status
+
+### git commit
+
+### git branch
+
+### git checkout
+
+### git push
+
+### git pull
+
+### git merge
+
+### git stash
 
 
 ## Getting to know Github
@@ -58,7 +73,7 @@ Issues have their own tab below your-name/your-repo. You can open new issue just
 
 ## Installing Git
 - Download [Git](https://git-scm.com/) 
-- Install Git 
+- Follow installation wizard's instructions
 	- Default settings should be fine (at least on windows)
 
 ## Assignments
