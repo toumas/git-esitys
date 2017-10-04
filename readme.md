@@ -31,17 +31,33 @@ Github, Gitlab, Bitbucket etc. are all different services where you can upload y
 
 
 
-## Git Commands
+## Common Git commands
 
 ### git init
 
+`git init` initializes new Git repository in your current location. The folder it's used in may or may not contain files. After it's done there will be .git subfolder in your folder which contains everything that Git needs to be functional.
+
+### git clone
+
+`git clone <repo url>` is used to copy local or remote repository. The copied repository is fully functional copy of the original repository meaning it manages it's own history, files and is completely standalone from the original repository.
+
 ### git status
+
+### git add
 
 ### git commit
 
 ### git branch
 
+`git branch` lists all the local branches in the repository.
+
+`git branch <name>` is a command that creates new local branch. It creates a full copy of the current branch so to say.
+
 ### git checkout
+
+`git checkout <branch>` is used to switch from the current branch to another local branch.
+
+`git checkout -b <branch>` is common shortcut for `git branch <branch>` + `git checkout <branch>`.
 
 ### git push
 
