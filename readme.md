@@ -43,9 +43,17 @@ Github, Gitlab, Bitbucket etc. are all different services where you can upload y
 
 ### git status
 
+`git status` shows you the status of the current working directory. It lists which files are staged, unstaged and untracked. In other words, it shows you what files you're about to commit or could `add` to be committed.
+
 ### git add
 
+`git add <file>` adds the file to staged area. So the next time you `commit` the file and it's changes will be included in the commit.
+
+`git add .` is a useful shortcut that stages all new and modified files.
+
 ### git commit
+
+`git commit -m "Description text"` is the most essential command there is to Git. If you're new to version control you can think of it as saving like in any other program or software. Because that's what it does. After committing your changes are safe in Git's history.
 
 ### git branch
 
@@ -61,11 +69,19 @@ Github, Gitlab, Bitbucket etc. are all different services where you can upload y
 
 ### git push
 
+`git push <remote> <branch>` pushes your local commits to remote repository which is a good way to secure that you don't lose your work, say, in a case of hard drive failure. To put it simply, it makes your work visible in GitHub.
+
+> Note: When you're pushing a branch that does not yet exist on origin you may need to use `-u` flag which basically takes care of tracking other branches compared to yours. [Read more](https://felipec.wordpress.com/2013/09/01/advanced-git-concepts-the-upstream-tracking-branch/)
+
 ### git pull
+
+`git pull` is one of the core commands when working in a team. It synchronizes your current branch with the branch in remote repository. Simply put, it downloads changes made by someone else.
 
 ### git merge
 
-### git stash
+`git merge <branch>` does exactly what the name suggests. It merges the `<branch>` into the current branch. It is important because generally you want to keep your code in a single code base, say, master branch for example. When merging Git creates a special merge commit 
+
+However sometimes when you're merging a merge conflict can occur. Conflicts happen when both you and someone else have made changes to the same file on the same row. If that happens you have to manually solve those conflicts (usually via visual tool or your favorite IDE) until you can continue with your merge commit.
 
 
 ## Getting to know Github
