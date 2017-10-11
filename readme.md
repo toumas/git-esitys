@@ -26,11 +26,6 @@ GIT is a supply chain management tool that you can download to your pc locally. 
 
 Github, Gitlab, Bitbucket etc. are all different services where you can upload your repository. Terminology and features may vary but they all work the same way (e.g. Pull request [github] vs Merge request [bitbucket]). 
 
-## Three stages of Git (tai mitä tahansa mitä Eetu haluaa oman settinsä nimeks)
-
-
-
-
 ## Common Git commands
 
 ### git init
@@ -59,11 +54,15 @@ Github, Gitlab, Bitbucket etc. are all different services where you can upload y
 
 `git branch` lists all the local branches in the repository.
 
-`git branch <name>` is a command that creates new local branch. It creates a full copy of the current branch so to say.
+`git branch <name>` is a command that creates new local branch.
+Remember that branches in Git are just pointers to one commit. So you're 
+creating another new movable pointer to the same commit you're currently on.
 
 ### git checkout
 
-`git checkout <branch>` is used to switch from the current branch to another local branch.
+`git checkout <branch>` is used to switch from the current branch to another branch.
+Keep in mind that this command updates your files to match the version you're
+ moving to.
 
 `git checkout -b <branch>` is common shortcut for `git branch <branch>` + `git checkout <branch>`.
 
